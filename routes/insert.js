@@ -5,7 +5,8 @@ const router = express.Router();
 // @desc insert new user to the database
 // @access Private
 router.post("/", (req, res) => {
-  //insert new user logic
+  res.write("insert a user");
+  res.end();
 });
 
 module.exports = router;

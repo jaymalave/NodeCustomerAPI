@@ -5,7 +5,8 @@ const router = express.Router();
 // @desc delete a user from the database
 // @access public
 router.delete("/", (req, res) => {
-  //return delete user logic
+  res.write("Delete a user");
+  res.end();
 });
 
 module.exports = router;

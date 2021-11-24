@@ -5,7 +5,8 @@ const router = express.Router();
 // @desc fetch image of a specific user
 // @access public
 router.get("/", (req, res) => {
-  //fetch image logic 
+  res.write("fetch user image");
+  res.end();
 });
 
 module.exports = router;
